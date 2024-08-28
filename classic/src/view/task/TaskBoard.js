@@ -27,7 +27,7 @@ Ext.define('MyApp.view.task.TaskBoard', {
             tpl: [
                 '<tpl for=".">',
                 '<div class="task-item" style="background-color: {[this.getImportanceColor(values.importance)]};">',
-                '<h3>{id}</h3>',
+                '<h3>{number}</h3>',
                 '<p>{title}</p>',
                 '</div>',
                 '</tpl>',
@@ -66,7 +66,7 @@ Ext.define('MyApp.view.task.TaskBoard', {
             tpl: [
                 '<tpl for=".">',
                 '<div class="task-item" style="background-color: {[this.getImportanceColor(values.importance)]};">',
-                '<h3>{id}</h3>',
+                '<h3>{number}</h3>',
                 '<p>{title}</p>',
                 '</div>',
                 '</tpl>',
@@ -105,7 +105,7 @@ Ext.define('MyApp.view.task.TaskBoard', {
             tpl: [
                 '<tpl for=".">',
                 '<div class="task-item" style="background-color: {[this.getImportanceColor(values.importance)]};">',
-                '<h3>{id}</h3>',
+                '<h3>{number}</h3>',
                 '<p>{title}</p>',
                 '</div>',
                 '</tpl>',
@@ -144,7 +144,7 @@ Ext.define('MyApp.view.task.TaskBoard', {
             tpl: [
                 '<tpl for=".">',
                 '<div class="task-item" style="background-color: {[this.getImportanceColor(values.importance)]};">',
-                '<h3>{id}</h3>',
+                '<h3>{number}</h3>',
                 '<p>{title}</p>',
                 '</div>',
                 '</tpl>',
